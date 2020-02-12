@@ -1,0 +1,11 @@
+name: Plugin Tutorial
+author: iiFouzi
+api: [3.0.0]
+main: iiFouzi\Main
+version: 1.0.0
+
+permssions : 
+  tutorial.command:
+   description: " A tutorial plugin  for pmmp "
+   default: true
+  
