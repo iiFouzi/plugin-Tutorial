@@ -1,6 +1,6 @@
 <?php
 
-namespace iiFouzi; // here you should put your plugin name or what  you wrote in plugin.yml ( main: iiFouzi/Main ) .
+namespace iiFouzi\Tutorial; // here you should put your plugin author and name.
 
 use pocketmine\Server;
 use pocketmime\Player;
@@ -26,7 +26,7 @@ class Main extends PluginBase {
             
             return true;
             
-     }
+    }
             
             
 }
