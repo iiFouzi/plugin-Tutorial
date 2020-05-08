@@ -1,6 +1,6 @@
 <?php
 
-namespace iiFouzi\Tutorial; // here you should put your plugin author and name.
+namespace iiFouzi\Tutorial;
 
 use pocketmine\Server;
 use pocketmime\Player;
@@ -19,12 +19,12 @@ class Main extends PluginBase {
         switch($cmd->getName()){
         case "tutorial": 
         if($player instanceof Player){
-            $player->sendMessage("welcome to your server , have a good day") // when a player use the commad it will send him this message
+            $player->sendMessage("welcome to your server , have a good day") // when a player use the command it will send him this message
             }
             break;
-            }
+        }
             
-            return true;
+        return true;
             
     }
             
